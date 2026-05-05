@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JE Hughes Limited | Strategic Business Consultancy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,600&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Montserrat', sans-serif; }
+        .font-serif-elegant { font-family: 'Cormorant Garamond', serif; }
+        
+        .hero-pattern {
+            background-color: #f8fafc;
+            background-image: radial-gradient(#cbd5e1 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+        }
+
+        .border-accent {
+            border-left: 5px solid #166534; /* Forest Green */
+        }
+
+        .nav-link:hover {
+            color: #166534;
+            border-bottom: 2px solid #166534;
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-800 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 border-2 border-green-800 flex items-center justify-center rounded-full">
+                    <span class="text-green-800 font-bold text-xl">H</span>
+                </div>
+                <div class="leading-none">
+                    <span class="text-xl font-bold tracking-tight text-slate-900 block">JE HUGHES</span>
+                    <span class="text-[9px] uppercase tracking-[0.4em] font-bold text-green-700 italic">Limited</span>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-10 text-[11px] font-bold uppercase tracking-widest text-slate-500">
+                <a href="#home" class="nav-link transition">Overview</a>
+                <a href="#solutions" class="nav-link transition">Solutions</a>
+                <a href="#about" class="nav-link transition">The Firm</a>
+                <a href="#contact" class="nav-link transition">Connect</a>
+            </div>
+            <a href="#contact" class="bg-green-800 text-white px-6 py-2.5 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-green-900 transition shadow-lg">
+                Contact Office
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-pattern min-h-screen flex items-center pt-20 px-6">
+        <div class="max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <p class="text-green-700 font-bold tracking-[0.4em] uppercase text-xs mb-6 italic">Strategic Management Consultancy</p>
+                <h1 class="text-5xl md:text-7xl font-serif-elegant font-semibold text-slate-900 mb-8 leading-tight">
+                    Navigasi <span class="italic text-green-800">Kejelasan</span> di Tengah Kompleksitas.
+                </h1>
+                <p class="text-lg text-slate-500 mb-10 leading-relaxed max-w-xl font-light">
+                    JE Hughes Limited memberikan perspektif independen dan solusi manajerial terukur untuk membantu bisnis Anda berkembang secara berkelanjutan dari pusat Chester Le Street.
+                </p>
+                <div class="flex flex-col md:flex-row gap-6">
+                    <a href="#solutions" class="bg-green-800 text-white px-10 py-4 text-[10px] font-bold uppercase tracking-[0.2em] hover:bg-green-900 transition text-center shadow-xl">
+                        Explore Solutions
+                    </a>
+                    <a href="#about" class="border border-slate-300 text-slate-600 px-10 py-4 text-[10px] font-bold uppercase tracking-[0.2em] hover:bg-slate-50 transition text-center">
+                        Our Firm's DNA
+                    </a>
+                </div>
+            </div>
+            <div class="hidden lg:block relative">
+                <div class="absolute -inset-10 bg-green-100/50 rounded-full blur-3xl opacity-50"></div>
+                <img src="https://images.unsplash.com/photo-1454165833762-0265129b0021?q=80&w=2070&auto=format&fit=crop" alt="Strategy Meeting" class="relative rounded-2xl shadow-2xl grayscale hover:grayscale-0 transition duration-1000">
+                <div class="absolute -bottom-6 -right-6 bg-white p-8 rounded-xl shadow-2xl border border-slate-100 max-w-xs">
+                    <p class="text-slate-900 font-bold text-sm italic mb-2">"Presisi dalam perencanaan, integritas dalam eksekusi."</p>
+                    <p class="text-green-700 font-bold text-[10px] uppercase tracking-widest">— JE Hughes Team</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Solutions Grid -->
+    <section id="solutions" class="py-32 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="max-w-2xl mb-24 border-accent pl-10">
+                <h2 class="text-4xl md:text-5xl font-serif-elegant font-semibold text-slate-900 mb-6 italic">Layanan Konsultasi Utama</h2>
+                <p class="text-slate-500 leading-relaxed font-light">Membantu organisasi mendefinisikan kembali strategi mereka melalui analisis data yang tajam dan pengalaman manajerial yang luas.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group">
+                    <div class="w-14 h-14 bg-slate-50 border border-slate-100 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-green-800 transition-all duration-500">
+                        <i class="fas fa-chess-knight text-green-800 text-2xl group-hover:text-white transition-colors"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-4 uppercase tracking-tighter text-slate-800">Business Strategy</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed font-light">Perumusan rencana strategis jangka panjang untuk memastikan keunggulan kompetitif di pasar yang dinamis.</p>
+                </div>
+                <div class="group">
+                    <div class="w-14 h-14 bg-slate-50 border border-slate-100 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-green-800 transition-all duration-500">
+                        <i class="fas fa-sync-alt text-green-800 text-2xl group-hover:text-white transition-colors"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-4 uppercase tracking-tighter text-slate-800">Process Optimization</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed font-light">Analisis dan perbaikan alur kerja internal untuk meningkatkan produktivitas dan efisiensi biaya operasional.</p>
+                </div>
+                <div class="group">
+                    <div class="w-14 h-14 bg-slate-50 border border-slate-100 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-green-800 transition-all duration-500">
+                        <i class="fas fa-chart-line text-green-800 text-2xl group-hover:text-white transition-colors"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-4 uppercase tracking-tighter text-slate-800">Growth Management</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed font-light">Membimbing perusahaan dalam fase ekspansi untuk memastikan skalabilitas yang stabil dan terstruktur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location / About Section -->
+    <section id="about" class="py-32 px-6 bg-slate-50">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-20">
+            <div class="md:w-1/2">
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2084&auto=format&fit=crop" alt="Chester Le Street Architecture" class="rounded-3xl shadow-xl grayscale">
+            </div>
+            <div class="md:w-1/2">
+                <h3 class="text-4xl font-serif-elegant font-semibold text-slate-900 mb-8 italic text-green-800">Berbasis di Chester Le Street.</h3>
+                <p class="text-slate-500 mb-8 leading-relaxed font-light">JE Hughes Limited beroperasi dengan kode SIC 70229, berfokus pada kualitas konsultasi daripada kuantitas klien. Berlokasi di Meadow Drive, DH2 2XA, kami melayani mitra bisnis dengan dedikasi penuh terhadap integritas korporasi di United Kingdom.</p>
+                
+                <div class="p-8 bg-white border border-slate-200 rounded-2xl shadow-sm">
+                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em] mb-4">Official HQ Address</p>
+                    <p class="text-slate-800 font-bold leading-relaxed italic">"11 Meadow Drive, Chester Le Street, DH2 2XA, United Kingdom"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="bg-white py-32 px-6 border-t border-slate-100">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-6xl font-serif-elegant font-semibold mb-10 italic">Hubungi JE Hughes</h2>
+            <p class="text-slate-500 mb-16 font-light leading-relaxed">Siap mendiskusikan transformasi bisnis Anda? Tim kami siap memberikan konsultasi strategis yang Anda butuhkan.</p>
+            
+            <div class="flex flex-col md:flex-row gap-8 justify-center items-center mb-24 text-left">
+                <div class="bg-slate-50 p-10 border border-slate-100 rounded-2xl min-w-[320px]">
+                    <p class="text-green-700 text-[10px] uppercase tracking-widest mb-4 font-bold">Email Inquiry</p>
+                    <p class="text-slate-900 font-bold text-lg">admin@jehughes.co.uk</p>
+                </div>
+                <div class="bg-slate-50 p-10 border border-slate-100 rounded-2xl min-w-[320px]">
+                    <p class="text-green-700 text-[10px] uppercase tracking-widest mb-4 font-bold">Consultation Hours</p>
+                    <p class="text-slate-900 font-bold text-lg">Mon - Fri: 09:00 - 17:00 GMT</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center gap-8 pt-16 border-t border-slate-100">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 border border-green-800 flex items-center justify-center rounded-full">
+                        <span class="text-green-800 font-bold text-xs uppercase">H</span>
+                    </div>
+                    <span class="text-[10px] font-bold tracking-[0.4em] uppercase text-slate-800">JE Hughes Limited</span>
+                </div>
+                <p class="text-[9px] text-slate-400 uppercase tracking-[0.5em] font-bold">
+                    &copy; 2026 JE Hughes Limited. Registered in England & Wales.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
